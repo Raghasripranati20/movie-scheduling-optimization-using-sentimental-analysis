@@ -2,7 +2,34 @@
 # Movie-Schedule-Optimization-Using-Sentimental-Analysis-of-Movie-Reviews
 
 ## Introduction
-The majority of cinema income is from screening new release films. A hit film results in high ticket income and high concession sales, and vice versa. Therefore, film arrangement is a significantly essential task for cinemas. Traditionally, theaters would predict a high box office for a movie with famous producers, popular cast and high budget and allocate more screenings to these kinds of movies. This is also how audiences made their decision in the past. However, with the spread of SNS and online critics commentaries, people tend to search for comments on the Internet before buying a ticket. As a result, people’s comments become more and more important to affect the revenue of a movie
+The triumph of a movie’s theatrical run is greatly 
+depends on the selection of theaters and showtimes. But 
+current methods frequently overlook audience reactions 
+in real time, which results in an ineffective use of 
+resources. Many popular movies have trouble finding 
+theaters to screen them, and too many movies with bad 
+reviews end up in theaters, frustrating moviegoers and 
+hurting distributors' bottom lines. 
+Our study uses sentiment analysis on first-day movie 
+reviews to examine a fresh solution to this problem. By 
+compiling and analyzing these reviews, we can predict 
+how well or poorly a film will do at theaters. This data
+driven approach may allow us to recommend 
+adjustments to the number of theaters and showtimes for 
+each movie.In order to categorize the tone of 
+evaluations, we utilize several machine learningTo 
+classify the sentiment of reviews, we employ a number 
+of machine learning methods, including SVM, Logistic 
+Regression, Naïve Bayes and KNN. 
+The model Multinomial Naive Bayes is used for final 
+recommendations because of its greater accuracy. Our 
+goal in incorporating sentiment analysis into the 
+decision-making process is to make movie scheduling 
+more effective. This would not only help distributors cut 
+losses but also improve audience demand. This 
+concept's dynamic and adaptable venue allocation 
+mechanism benefits both moviegoers and the film 
+distribution business.
 
 ## Problem Statement and Project Objective
 Firstly, we would like to understand whether ranking on movie rating websites will affect potential audiences’ willingness to watch the movie. If a movie has a high rank, it will attract more audiences to go to the theaters to watch this movie. However, for newly released movies, the website should wait for days to conclude a rating, and cinemas
@@ -92,50 +119,56 @@ In conclusion, we have determined that the Multinomial Naive Bayes model has the
 Analysis of Movie Reviews using Machine Learning 
 Techniques. International Journal of Computer 
 Applications, 
-179(7). 
-https://doi.org/10.5120/ijca2017916005  
+179(7). https://doi.org/10.5120/ijca2017916005  
+
 [2] Kalaivani, P., & Shunmuganathan, K. L. (2013). 
 Sentiment Classification of Movie Reviews by 
 Supervised Machine Learning Approaches. Indian 
 Journal of Computer Science and Engineering, 4(4), 
-285-290. [3] Purnomoputra, R. B., Adiwijaya, & Wisesty, U. N. 
+285-290. 
+
+[3] Purnomoputra, R. B., Adiwijaya, & Wisesty, U. N. 
 (2019). Sentiment Analysis of Movie Reviews using 
 Naïve Bayes Method with Gini Index Feature Selection. 
 Journal of Data Science and Its Applications, 2(2), 85
 94. https://doi.org/10.34818/JDSA.2019.2.36  
+
 [4] Sulthana, R. A., Jaithunbi, A. K., Harikrishnan, H., 
 & Varadarajan, V. (2022). Sentiment analysis on movie 
 reviews dataset using support vector machines and 
 ensemble learning. International Journal of Information 
-Technology 
-and 
-Web 
-Engineering, 
+Technology and Web Engineering, 
 https://doi.org/10.4018/IJITWE.311428.  
 17(1). 
+
 [5] Kulkarni, E. G., & Pujar, A. M. (2021). Intelligent 
 framework for sentiment analysis of movie reviews - A 
 comprehensive survey. Journal of Emerging 
 Technologies and Innovative Research, 8(6), 738-742. 
 http://www.jetir.org/papers/JETIR2106802.pdf  
+
 [6] Bodapati, J. D., Veeranjaneyulu, N., & Shaik, S. 
 (2019). Sentiment analysis from movie reviews using 
 LSTMs. Ingenierie des Systemes d'Information, 24(1), 
 125-129. https://doi.org/10.18280/isi.240119  
+
 [7] Lee, & Pang, B. (2008). sentiment analysis as well 
 as opinion mining. Principles and Developments in 
 Information Retrieval, 2(1-2), 1–135. 
 (doi.org/10.1561/1500000011)  
+
 [8] Wiley Interdisciplinary Reviews: Data Mining and 
 Knowledge Discovery, 8(4), e1253. Zhang, L., Wang, 
 S., & Liu, B. (2018). Deep learning for sentiment 
 analysis: A survey. https://doi.org/10.1002/widm.1253  
+
 [9] Asur, S. and Huberman, B. A. (2010). using social 
 media to make future predictions. The 2010 
 IEEE/WIC/ACM International Conference on Web 
 Intelligence and Intelligent Agent Technology, 
 Proceedings, 492-499. 
 doi.org/10.1109/WI-IAT.2010.63  
+
 [10] In 2003, Hatzivassiloglou, V., and Yu, H. 
 Identifying the polarity of opinion sentences and 
 separating opinions from facts are two steps towards 
@@ -143,6 +176,7 @@ providing an opinion-based answer. Empirical Methods
 in Natural Language Processing (EMNLP) Conference 
 Proceedings, 2003, 129–136. [W03-1017] available at 
 https://www.aclweb.org/anthology  
+
 [11] In 2010, Tumasjan, A., Welpe, I. M., Sandner, P. G., 
 and Sprenger, T. O. Predicting elections with Twitter: 
 What 140 characters convey about political mood. The 
