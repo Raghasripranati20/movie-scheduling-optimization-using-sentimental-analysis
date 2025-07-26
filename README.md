@@ -88,17 +88,71 @@ content, air it during times where the demographics would visit the cinemas the 
 In conclusion, we have determined that the Multinomial Naive Bayes model has the most accurate predictions in comparison with the other models in the setting of predicting sentiments with movie comments. This could be used as a preliminary analytical tool for stakeholders to predict the gross box office of the film, and therefore better arrange the screening times and locations. However, there exists a few areas that could be navigated further. To start off, we ruled out comments that we considered as “too subjective” and “too polarized”, but there are films that have such a strong and unique characteristic that only appeal to a certain crowd. Some comments might love it and some might detest it, but both need to be included to arrive at an accurate and relevant prediction. This accuracy issue might also occur as we tokenized the words. We could easily break down a sentence into words that didn’t convey its original implication. For example, a “huge mistake if you don’t watch it over 100 times” comment would give the wrong idea. This could be further improved if we can incorporate more phrases or short sentences in the model to start with, and therefore interpreting a wider range of sentiments. Another important issue to consider is that, during the initial analysis of our data, we recognized that sentiments are in values of only 0 and 1, that is, identifying emotions that are purely positive and purely negative. We could consider that words and emotions have different levels of positivity and negativity, and only considering a comment section’s count of words and counts of sentences in which they appear could throw us off quite a bit. To further improve the accuracy rate of our classification models, we can add a more refined score to reflect comment’s emotions, and eventually produce a movie classification that is more than just “good” and “bad”.
 
 ## Reference
-[1] Rotten Tomatoes movies and critic reviews dataset
-https://www.kaggle.com/stefanoleone992/rotten-tomatoes-movies-and-critic-reviews-dataset?select=rotte
-n_tomatoes_movies.csv
-
-[2] The Movies Dataset
-https://www.kaggle.com/rounakbanik/the-movies-dataset
-
-[3] Python – Text Classification using Bag-of-words Model
-https://vitalflux.com/text-classification-bag-of-words-model-python-sklearn/#:~:text=CountVectorizer%20%28sklearn.feature_extraction.text.CountVectorizer%29%20is%20used%20to%20fit%20the%20bag-or-words,text%20data%2C%20which%20can%20be%20documents%20or%20sentences.
-
-[4] TF-IDF Vectorizer scikit-learn
-https://medium.com/@cmukesh8688/tf-idf-vectorizer-scikit-learn-dbc0244a911a
+[1] Baid, P., Gupta, A., & Chaplot, N. (2017). Sentiment 
+Analysis of Movie Reviews using Machine Learning 
+Techniques. International Journal of Computer 
+Applications, 
+179(7). 
+https://doi.org/10.5120/ijca2017916005  
+[2] Kalaivani, P., & Shunmuganathan, K. L. (2013). 
+Sentiment Classification of Movie Reviews by 
+Supervised Machine Learning Approaches. Indian 
+Journal of Computer Science and Engineering, 4(4), 
+285-290. [3] Purnomoputra, R. B., Adiwijaya, & Wisesty, U. N. 
+(2019). Sentiment Analysis of Movie Reviews using 
+Naïve Bayes Method with Gini Index Feature Selection. 
+Journal of Data Science and Its Applications, 2(2), 85
+94. https://doi.org/10.34818/JDSA.2019.2.36  
+[4] Sulthana, R. A., Jaithunbi, A. K., Harikrishnan, H., 
+& Varadarajan, V. (2022). Sentiment analysis on movie 
+reviews dataset using support vector machines and 
+ensemble learning. International Journal of Information 
+Technology 
+and 
+Web 
+Engineering, 
+https://doi.org/10.4018/IJITWE.311428.  
+17(1). 
+[5] Kulkarni, E. G., & Pujar, A. M. (2021). Intelligent 
+framework for sentiment analysis of movie reviews - A 
+comprehensive survey. Journal of Emerging 
+Technologies and Innovative Research, 8(6), 738-742. 
+http://www.jetir.org/papers/JETIR2106802.pdf  
+[6] Bodapati, J. D., Veeranjaneyulu, N., & Shaik, S. 
+(2019). Sentiment analysis from movie reviews using 
+LSTMs. Ingenierie des Systemes d'Information, 24(1), 
+125-129. https://doi.org/10.18280/isi.240119  
+[7] Lee, & Pang, B. (2008). sentiment analysis as well 
+as opinion mining. Principles and Developments in 
+Information Retrieval, 2(1-2), 1–135. 
+(doi.org/10.1561/1500000011)  
+[8] Wiley Interdisciplinary Reviews: Data Mining and 
+Knowledge Discovery, 8(4), e1253. Zhang, L., Wang, 
+S., & Liu, B. (2018). Deep learning for sentiment 
+analysis: A survey. https://doi.org/10.1002/widm.1253  
+[9] Asur, S. and Huberman, B. A. (2010). using social 
+media to make future predictions. The 2010 
+IEEE/WIC/ACM International Conference on Web 
+Intelligence and Intelligent Agent Technology, 
+Proceedings, 492-499. 
+doi.org/10.1109/WI-IAT.2010.63  
+[10] In 2003, Hatzivassiloglou, V., and Yu, H. 
+Identifying the polarity of opinion sentences and 
+separating opinions from facts are two steps towards 
+providing an opinion-based answer. Empirical Methods 
+in Natural Language Processing (EMNLP) Conference 
+Proceedings, 2003, 129–136. [W03-1017] available at 
+https://www.aclweb.org/anthology  
+[11] In 2010, Tumasjan, A., Welpe, I. M., Sandner, P. G., 
+and Sprenger, T. O. Predicting elections with Twitter: 
+What 140 characters convey about political mood. The 
+Fourth International AAAI Conference on Social Media 
+and Weblogs, Proceedings, 178–185. 
+This 
+article 
+can 
+be 
+viewed at
+https://ojs.aaai.org/index.php/ICWSM/11001 
 
 Video link: https://youtu.be/8UCfaQtp9lY
